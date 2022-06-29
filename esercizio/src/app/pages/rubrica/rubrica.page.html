@@ -1,0 +1,10 @@
+<H1 class="text-center my-3">Rubrica</H1>
+<app-new></app-new>
+<div class="row my-4 ">
+    <div class="col" >
+      <app-list [lista] = "lista"></app-list>
+    </div>
+    <div class="col" *ngIf="dettagli">
+        <app-card></app-card>
+    </div>
+</div>
